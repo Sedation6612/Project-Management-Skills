@@ -1,16 +1,16 @@
 # Templates (Copy/Paste)
 
-## New Project Intake
-- requested_by:
+## New Project Intake (Minimum Required)
 - summary:
 - proposed_outcome:
+
+Optional (infer if possible):
 - constraints:
 - required_deadlines:
 - initial_risks:
-- proposed_project_id:
 - specialized_sub_agent:
 
-## Charter (Create in LOG_CACHES.md under Charters)
+## Charter Lite (Create in LOG_CACHES.md under Charters)
 # <Project ID> — <Project Name>
 
 ## Objective
@@ -19,17 +19,16 @@
 
 ## Scope (Out)
 
-## Guardrails
-
-## Dependencies
-
 ## Success Criteria
-
-## Verification Plan
 
 ## Non-Goals
 
 ## Change Control
+
+## Charter Full (Optional Expansion)
+- guardrails
+- dependencies
+- verification plan
 
 ## Scope Change Request
 - project_id:

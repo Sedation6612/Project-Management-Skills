@@ -17,9 +17,9 @@ All entries in this file must be **verbose and detailed** (full context, rationa
 | --- | --- | --- | --- | --- |
 | OC-YYYYMMDD-0001 | Kernel Governance OS (Master) | Active | #oc-yyyymmdd-0001-—-kernel-governance-os-master | Seed record |
 
-### How to Create a Project
-1. Generate the next Project ID using the standard format.
-2. Write the charter into **Charters** using the required template.
+### How to Create a Project (Streamlined)
+1. Auto-generate the next Project ID using the standard format.
+2. Start a **Charter Lite** entry under **Charters**.
 3. Register the project in the table above.
 4. Log the creation in **Log**.
 
@@ -75,7 +75,7 @@ Define and enforce the governance OS for all OpenClaw projects.
 
 ---
 
-### Charter Template (Copy/Paste)
+### Charter Lite Template (Copy/Paste)
 
 # <Project ID> — <Project Name>
 
@@ -85,17 +85,16 @@ Define and enforce the governance OS for all OpenClaw projects.
 
 #### Scope (Out)
 
-#### Guardrails
-
-#### Dependencies
-
 #### Success Criteria
-
-#### Verification Plan
 
 #### Non-Goals
 
 #### Change Control
+
+### Charter Full (Optional Expansion)
+- guardrails
+- dependencies
+- verification plan
 
 ---
 

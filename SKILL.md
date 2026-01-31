@@ -16,7 +16,7 @@ Use this skill whenever:
 ## Quickstart Checklist
 1. Capture the request and **infer missing fields** from prior conversation context (only when evidence is clear).
 2. Ask the master if this should become a **project** with a specialized sub-agent presiding.
-3. If yes, assign or create a **Project ID** and confirm a **charter** exists in `LOG_CACHES.md` under **Charters**.
+3. If yes, auto-create a **Project ID** and start a **Charter Lite** in `LOG_CACHES.md` under **Charters**.
 4. Load caches: `LOG_CACHES.md`.
 5. Run the **Conflict Detection Checklist**.
 6. Proceed only if gates pass; otherwise log conflict and stop.
@@ -38,6 +38,7 @@ Use this skill whenever:
 ## Core References
 - Governance rules: [INFO_GOVERNANCE.md](INFO_GOVERNANCE.md)
 - Runtime integration: [INFO_RUNTIME.md](INFO_RUNTIME.md)
+- Research notes: [INFO_RESEARCH.md](INFO_RESEARCH.md)
 
 ## Safety & Trust Warning
 Safety and correctness override speed. If uncertain, **stop**, document unknowns, and escalate or request clarification rather than guessing.

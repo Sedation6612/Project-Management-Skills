@@ -87,11 +87,11 @@ This workflow applies to **every request**. It is a gate-based system; if any ga
    - Infer missing fields from prior conversation context when evidence is clear.
 2. **ID Gate**
    - Ask the master whether this should become a project with a specialized sub-agent.
-   - If yes: verify a valid Project ID exists or create one.
+   - If yes: auto-create a Project ID and start a **Charter Lite**.
    - If no: proceed as **non-project work** and log the categorization.
 3. **Charter Gate**
-   - Confirm a charter exists in `LOG_CACHES.md` under **Charters**.
-   - If missing or incomplete: block and log conflict.
+   - Confirm a **Charter Lite** exists in `LOG_CACHES.md` under **Charters**.
+   - If missing: block and log conflict.
 4. **Conflict Gate**
    - Run the Conflict Detection Checklist from `LOG_CACHES.md` under **Conflicts**.
    - If conflict detected: log and route as required.
