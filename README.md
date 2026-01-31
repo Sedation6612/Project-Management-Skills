@@ -8,3 +8,15 @@ This repository provides **Project Management Skills**, a **Markdown-only skill*
 - [INFO_RUNTIME.md](INFO_RUNTIME.md) — How OpenClaw must read/write workspace templates and memory files at runtime.
 - [INFO_TEMPLATES.md](INFO_TEMPLATES.md) — Copy/paste templates for intake, charter, conflicts, and more.
 - [LOG_CACHES.md](LOG_CACHES.md) — Verbose logs and cache sections for projects, charters, conflicts, decisions, and activity logs.
+- [WORKFLOW.md](WORKFLOW.md) — Canonical governed workflow gates.
+- [MASTER.md](MASTER.md) — Master Project (kernel) definition and override policy.
+- [DEFINITIONS.md](DEFINITIONS.md) — Canonical definitions for governance terms.
+- [SEVERITY.md](SEVERITY.md) — Severity ladder with required actions and mappings.
+- [PROJECTS.md](PROJECTS.md) — Project registry cache (updated by OpenClaw).
+- [CHARTERS.md](CHARTERS.md) — All project charters live here (cache).
+- [CONFLICTS.md](CONFLICTS.md) — Conflict inbox + archive (cache).
+- [ROUTING.md](ROUTING.md) — Manual messenger payload template.
+- [DECISIONS.md](DECISIONS.md) — Append-only decision log (cache).
+- [LOG.md](LOG.md) — Append-only activity log (cache).
+- [TEMPLATES.md](TEMPLATES.md) — Copy/paste templates for intake, charter, conflicts, and more.
+- [RUNTIME_INTEGRATION.md](RUNTIME_INTEGRATION.md) — How OpenClaw must read/write workspace templates and memory files at runtime.
