@@ -4,6 +4,10 @@ This repository provides **Project Management Skills**, a **Markdown-only skill*
 
 ## Contents
 - [SKILL.md](SKILL.md) — Skill entry point with triggers, quickstart, commandments, and safety rules.
+- [INFO_GOVERNANCE.md](INFO_GOVERNANCE.md) — Master project, definitions, severity, workflow, and routing rules.
+- [INFO_RUNTIME.md](INFO_RUNTIME.md) — How OpenClaw must read/write workspace templates and memory files at runtime.
+- [INFO_TEMPLATES.md](INFO_TEMPLATES.md) — Copy/paste templates for intake, charter, conflicts, and more.
+- [LOG_CACHES.md](LOG_CACHES.md) — Verbose logs and cache sections for projects, charters, conflicts, decisions, and activity logs.
 - [WORKFLOW.md](WORKFLOW.md) — Canonical governed workflow gates.
 - [MASTER.md](MASTER.md) — Master Project (kernel) definition and override policy.
 - [DEFINITIONS.md](DEFINITIONS.md) — Canonical definitions for governance terms.
