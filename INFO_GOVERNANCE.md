@@ -1,6 +1,6 @@
-# Governance OS (Master, Definitions, Severity, Workflow, Routing)
+# Governance OS (User, Definitions, Severity, Workflow, Routing)
 
-## Master Project (Kernel)
+## User Project (Kernel)
 
 ### Objective
 Provide the governing “OS” for all OpenClaw project work: enforce Project IDs, charter-first execution, conflict detection and logging, severity handling, and safety-over-speed decisions.
@@ -14,10 +14,10 @@ Provide the governing “OS” for all OpenClaw project work: enforce Project ID
 **Out of scope**
 - Delivering project-specific content outside of defined charters.
 - Bypassing conflict detection or severity handling.
-- Modifying runtime workspace templates inside this repo.
+- Modifying runtime workspace templates inside the project management skill.
 
 ### Guardrails
-- Master Project rules override all local project preferences.
+- User Project rules override all local project preferences.
 - Stop-work rules are mandatory.
 - Safety and correctness supersede speed.
 
@@ -28,7 +28,7 @@ Provide the governing “OS” for all OpenClaw project work: enforce Project ID
 - Decisions and actions are logged with traceability.
 
 ### Change Control & Override Policy
-- Changes to this Master Project require a written record in `LOG_DECISIONS.md`.
+- Changes to this User Project require a written record in `LOG_DECISIONS.md`.
 - Any override of rules (reject/critical exceptions) must be documented as an **Override Record** in `LOG_CONFLICTS.md` and referenced in `LOG_DECISIONS.md`.
 - Overrides are temporary and must include resolution criteria and an expiration or review trigger.
 
@@ -87,7 +87,7 @@ This workflow applies to **every request**. It is a gate-based system; if any ga
    - Infer missing fields from prior conversation context when evidence is clear.
    - **Clarify any inferred fields you are not confident in** before committing them or creating a project.
 2. **ID Gate**
-   - Ask the master whether this should become a project (**ask even for small tasks**), using two questions:
+   - Ask the user whether this should become a project (**ask even for small tasks**), using two questions:
      - “Should I make and log this into a project to store it in my memory?”
      - “Should I execute this now, or spin up a specialized agent for higher-quality work (this will use more tokens)?”
    - If yes: confirm any uncertain fields, auto-create a Project ID, and start a **Charter Lite** in `LOG_CHARTERS.md`.
