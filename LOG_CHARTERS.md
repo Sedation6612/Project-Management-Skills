@@ -1,6 +1,6 @@
 # Charters (Cache)
 
-Charters must be **verbose and detailed**, capturing objective, scope, guardrails, dependencies, and verification plans in full.
+Charters must be **clear and detailed**, capturing objective, scope, guardrails, dependencies, and verification plans.
 
 # OC-YYYYMMDD-0001 — Kernel Governance OS (User)
 

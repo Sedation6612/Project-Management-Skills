@@ -22,7 +22,7 @@ Then load skill cache files in the project management skill:
 - IMPORTANT: **Do not create BOOT.md inside the project management skill; only write it in the OpenClaw workspace path.**
 
 ## C) “Learn / Remember” Write Targets (Examples Required)
-Use the workspace templates for continuity:
+Use the workspace templates for continuity and keep reminders concise and unambiguous:
 - If you discover a recurring process improvement, write it into `~/.openclaw/workspace/AGENTS.md` as a new operational rule (because it governs future sessions).
 - If you learn a user-specific environment detail (messenger channel name, preferred escalation target), write it into `~/.openclaw/workspace/TOOLS.md` (local notes).
 - If a conflict needs escalation, record it in `LOG_CONFLICTS.md` **and** write a reminder into `~/.openclaw/workspace/MEMORY.md` (single Markdown file) to ask the User Project to resolve it during the next main-session check-in.
