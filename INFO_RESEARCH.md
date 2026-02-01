@@ -40,7 +40,7 @@ Once documentation is accessible, verify:
 - Built-in logging and conflict routing behavior
 - Supported sub-agent or delegation mechanisms
 
-## Skill-Specific Recommendations (Based on Current Repo)
+## Skill-Specific Recommendations (Based on Current Project Management Skill)
 - Keep the **Charter Lite** as the default intake and only expand to full charter when risk increases.
 - Use separated log files (`LOG_PROJECTS.md`, `LOG_CHARTERS.md`, `LOG_CONFLICTS.md`, `LOG_DECISIONS.md`, `LOG_ACTIVITY.md`) as the verbose source of truth and reference them from memory.
 - Use the minimal intake template to reduce user friction while still preserving governance gates.
