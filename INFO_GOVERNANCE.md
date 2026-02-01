@@ -3,7 +3,7 @@
 ## User Project (Kernel)
 
 ### Objective
-Provide the governing “OS” for all OpenClaw project work: enforce Project IDs, charter-first execution, conflict detection and logging, severity handling, and safety-over-speed decisions.
+Provide the governing OS for all OpenClaw project work: enforce Project IDs, charter-first execution, conflict detection and logging, severity handling, and safety-over-speed decisions.
 
 ### Scope
 **In scope**
@@ -83,11 +83,12 @@ This workflow applies to **every request**. It is a gate-based system; if any ga
 
 ### Flow
 1. **Intake**
-   - Capture the request, desired outcome, and any constraints.
-   - Infer missing fields from prior conversation context when evidence is clear.
-   - **Clarify any inferred fields you are not confident in** before committing them or creating a project.
+   - Capture the request, desired outcome, and constraints.
+   - Infer missing fields only when evidence is clear.
+   - **Confirm assumptions** you are not confident in before committing them.
+   - Use clear, short questions and specify the expected response format.
 2. **ID Gate**
-   - Ask the user whether this should become a project (**ask even for small tasks**), using two questions:
+   - Ask the user whether this should become a project (**ask even for small tasks**):
      - “Should I make and log this into a project to store it in my memory?”
      - “Should I execute this now, or spin up a specialized agent for higher-quality work (this will use more tokens)?”
    - If yes: confirm any uncertain fields, auto-create a Project ID, and start a **Charter Lite** in `LOG_CHARTERS.md`.
